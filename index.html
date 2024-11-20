@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<! ISAAC CHUA | CC BY-NC | Images by Unsplash >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blackjack Genius</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="background-image"></div>
+    <div class="container">
+
+        <h1 class="title">Blackjack Genius</h1>
+
+        <form id="blackjack-form">
+            <div class="card-selection">
+                <h2>Dealer's Card</h2>
+                <select id="dealer-card">
+                    <!-- Card options -->
+                </select>
+            </div>
+
+            <div class="card-selection">
+                <h2>Your Cards</h2>
+                <select id="player-card-1">
+                    <!-- Card options -->
+                </select>
+                <select id="player-card-2">
+                    <!-- Card options -->
+                </select>
+            </div>
+
+            <button type="button" id="calculate-btn">Calculate</button>
+        </form>
+
+        <div id="results" class="results">
+            <h2>Results</h2>
+            <p id="win-probability"></p>
+            <p id="bust-probability"></p>
+            <p id="recommendation" class="animated-text"></p>
+        </div>
+
+        <div class="action-buttons">
+            <button type="button" id="hit-btn">Hit</button>
+            <button type="button" id="stand-btn">Stand</button>
+            <button type="button" id="restart-btn">Restart</button>
+        </div>
+
+        <div id="new-card-section" class="new-card-section">
+            <h2>New Card</h2>
+            <select id="new-card">
+                <!-- Card options -->
+            </select>
+            <button type="button" id="add-card-btn">Add Card</button>
+        </div>
+
+        <div id="game-messages" class="game-messages">
+            <!-- Messages will be displayed here -->
+        </div>
+    </div>
+	<div id="copyright">
+		<ul><li>&copy; 2024 Isaac Chua</li></ul>
+	</div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
