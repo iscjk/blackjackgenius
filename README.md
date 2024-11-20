@@ -1,4 +1,4 @@
-# blackjackgenius
+# Blackjack Genius
   
 A simple and intuitive **Blackjack Strategy Tool** that helps players decide whether to hit or stand based on game probabilities. Input your hand and the dealer's card to receive optimal guidance for your next move. Built using **HTML**, **CSS**, and **JavaScript**, licensed under **CC BY-NC**.
 
@@ -31,5 +31,3 @@ Contributions are welcome! However, since this project is licensed under **CC BY
 
 **License:**  
 This project is licensed under the **Creative Commons Attribution-NonCommercial (CC BY-NC)** license. You are free to share and adapt the work for non-commercial purposes with proper attribution.  
-
-Enjoy strategising and may your blackjack hands always be strong! 🃏
